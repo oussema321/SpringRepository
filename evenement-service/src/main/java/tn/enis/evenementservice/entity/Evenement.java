@@ -22,6 +22,8 @@ public class Evenement implements Serializable {
         this.date = date;
         this.lieu = lieu;
     }
+    
+    //
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
