@@ -23,8 +23,7 @@ public class Evenement implements Serializable {
         this.lieu = lieu;
     }
     
-    //
-    //
+    
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
